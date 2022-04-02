@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- websites : [Ketan_2000]( https://ketannegi.github.io/mentor_nft-card-preview/)
+- frontend mentor :[@ketannegi (https://www.frontendmentor.io/profile/ketannegi)
 
 ## My process
 
@@ -49,7 +49,6 @@ Users should be able to:
 
 ## Author
 
-- Website - []()
 - Frontend Mentor - [@ketannegi](https://www.frontendmentor.io/profile/ketannegi)
 
 \*\*
