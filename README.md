@@ -11,10 +11,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -34,7 +31,7 @@ Users should be able to:
 ### Links
 
 - websites : [Ketan_2000]( https://ketannegi.github.io/mentor_nft-card-preview/)
-- frontend mentor :[@ketannegi (https://www.frontendmentor.io/profile/ketannegi)
+- frontend mentor :[@ketannegi](https://www.frontendmentor.io/profile/ketannegi)
 
 ## My process
 
