@@ -91,6 +91,7 @@ p span {
     font-size: 13px;
   }
   .container {
+    margin: 30px auto
     max-width: 400px;
   }
 }
