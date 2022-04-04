@@ -120,7 +120,7 @@ p span {
     background-color: hsl(216, 50%, 16%);
     /* border: 2px solid; */
     border-radius: 20px;
-    max-width: 450px;
+    max-width: 400px;
     min-height: 300px;
     margin: 50px 20px;
     display: flex;
