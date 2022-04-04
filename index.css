@@ -1,9 +1,15 @@
+/* //////////////////////font-size relative to rem unit///////////// */
+
+* {
+  font-size: 16px;
+}
+
 body {
-  background-color: hsl(217, 54%, 11%);
-  color: hsl(215, 51%, 70%);
-  font-size: 14px;
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
   font-family: sans-serif;
 }
 .container {
@@ -11,22 +17,22 @@ body {
   /* border: 2px solid; */
   border-radius: 20px;
   max-width: 450px;
-  height: 90vh;
+  min-height: 300px;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
 }
 .img-content {
   border-radius: 15px;
-  max-height: 55%;
   margin: 20px 25px 0 25px;
 }
 .main-content {
   margin: 15px 25px 0;
   padding: 10px 0;
+  font-size: 14px;
 }
 header {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: white;
 }
@@ -55,7 +61,9 @@ aside {
   font-weight: 400;
 }
 .foot-content {
-  margin: 20px 25px;
+  border-top: 1px solid wheat;
+  margin: 0 25px;
+  padding: 15px 0;
   display: flex;
   gap: 20px;
 }
@@ -91,7 +99,43 @@ p span {
     font-size: 13px;
   }
   .container {
-    margin: 30px auto
+    margin: 30px auto;
     max-width: 400px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  * {
+    font-size: 12px;
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container {
+    background-color: hsl(216, 50%, 16%);
+    /* border: 2px solid; */
+    border-radius: 20px;
+    max-width: 450px;
+    min-height: 300px;
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content {
+    margin: 15px 25px 0;
+    padding: 10px 0;
+  }
+  .foot-content img {
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+  }
+}
+
